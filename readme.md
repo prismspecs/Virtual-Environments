@@ -128,8 +128,9 @@ Group Project: Sensory S(t)imulation
 ## Week 1 (1/21 & 1/23)
 
 + Class Overview
-+ Syllabus Review Introductions
++ Introductions
 + What you want to get out of this class?
++ Syllabus Review
 + Introduce Project 1
 + Form Groups
 + Begin Brainstorming
@@ -196,7 +197,9 @@ SPRING BREAK
 
 ## Week 12 (4/7 & 4/9)
 
++ Work on Project 3
 + Project 3 Presentations (4/8)
++ Introduce Project 4
 
 ## Week 13 (4/14 & 4/16)
 
