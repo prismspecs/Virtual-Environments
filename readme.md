@@ -135,18 +135,33 @@ Group Project: Sensory S(t)imulation
 + Form Groups
 + Begin Brainstorming
 
++ Lab
+  + Review/Basics
+  + Environmental Response
+    + Changing Materials via script
+  + First Person Controller
+    + Asset store -> Standard Assets
+
 ## Week 2 (1/28 & 1/30)
 
 + Interaction in 3D
 + Fist Person Character Controller
-+ Programming in C# refresher
-  + Variables
-  + Conditional Statements
+
++ Lab
+  + 3d Audio
+    + Spatial Blend
+    + Min/Max Distance
+
+  + Demo: Playing sound via script
+    + OnTriggerEnter
+    + PlayOneShot
+    + Play
+    + OnCollisionEnter
+    + Arrays
 
 ## Week 3 (2/4 & 2/6)
 
 + Arrays and Loops
-+ Make “things” happen: Physics, Triggers, Colliders, logic, and player feedback.
 
 ## Week 4 (2/11 & 2/13)
 
