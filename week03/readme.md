@@ -40,6 +40,8 @@
         + F3 menu -> Snap Cursor to World Origin
         + F3 -> Object: Set Origin
 
+    + Importing to Unity
+      + Add collider and make sure to check "Convex"
       + [More](https://gamedevacademy.org/how-to-import-blender-models-into-unity-your-one-stop-guide/)
   + [For more, follow the next Blender Guru tutorial](https://www.youtube.com/watch?v=RaT-uG5wgUw)
 + Arrays and Loops
