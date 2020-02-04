@@ -1,5 +1,7 @@
 # Week 3 (2/4 & 2/6)
 
+## Tuesday
+
 + 3d Modeling
   + Blender
     + [Download Blender](https://www.blender.org/download/)
@@ -44,5 +46,10 @@
       + Add collider and make sure to check "Convex"
       + [More](https://gamedevacademy.org/how-to-import-blender-models-into-unity-your-one-stop-guide/)
   + [For more, follow the next Blender Guru tutorial](https://www.youtube.com/watch?v=RaT-uG5wgUw)
+
++ Work on Projects
+
+## Thursday
+
 + Arrays and Loops
   + Doing something to every object (of type) in a scene
