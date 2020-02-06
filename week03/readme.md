@@ -51,5 +51,11 @@
 
 ## Thursday
 
++ Projects
+  + [Pippin Barr's Museum of Digital Water](https://hyperallergic.com/370712/virtual-museum-of-digital-water/)
+  + [WoW Funeral Raid](https://www.youtube.com/watch?v=MEpv7YxnLCQ)
+  + [My Trip to Liberty City - GTA Walking Sim](https://www.youtube.com/watch?v=fxpDHiH5PKk)
+  + [Eva and Franco Mattes - Freedom (2010)](https://0100101110101101.org/freedom/)
+  + [Cultural History of the Headshot](https://www.youtube.com/watch?v=f4ynPp10jMc&vl=en)
 + Arrays and Loops
   + Doing something to every object (of type) in a scene
