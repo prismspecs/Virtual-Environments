@@ -7,7 +7,9 @@
   + Mesh -> Normals -> Flip
 
 + Unity
-  + [Download Yoda](https://www.thingiverse.com/thing:276994)
+
+  + Based on [Brackey's Unity Lighting Tutorial](https://www.youtube.com/watch?v=VnG2gOKV9dw)
+
   + Disabling/Enabling Scene Lighting
   + Delete Directional Light
   + Create a plane
@@ -18,7 +20,7 @@
 
   + Duplicate the light source, create another color material, etc.
 
-  + Import Yoda to scene
+  + Import 3d model to scene
   + Lighting is not applied, you must Generate Lightmap UVs on the model
 
   + Project Settings -> Lighting
@@ -33,6 +35,8 @@
 
   + Adjust direct/indirect samples and bounces
 
++ Exercise
+  + [Using Dan Flavin as inspiration](https://www.google.com/search?q=dan+flavin&client=firefox-b-1-d&sxsrf=ACYBGNQ18WydoNyDpZm7eXDOTfwmXOGQMA:1581439395651&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj7lqXr-MnnAhUIo1kKHZXDDNkQ_AUoAXoECBUQAw&biw=1536&bih=750) construct a space-based art piece that uses light to create affect but also call attention to the environment that contains it
 
 
 
