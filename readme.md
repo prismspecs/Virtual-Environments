@@ -161,21 +161,19 @@ Group Project: Sensory S(t)imulation
 
 ## Week 3 (2/4 & 2/6)
 
-+ Arrays and Loops
++ Intro to Blender
++ Texturing
 
 ## Week 4 (2/11 & 2/13)
 
-+ Project 1 Demos
-+ Create a world in code: Instantiation
-+ Prefabs
-+ Destroy UI: Onscreen Text
-+ GUI Button
-+ Menus
++ Intro to Lighting
++ Workshop Projects
 
 ## Week 5 (2/18 & 2/20)
 
 + Project 1 Presentations (2/18)
 + Twine
++ Rigging a 3d Character w Mixamo
 
 ## Week 6 (2/25 & 2/27)
 
