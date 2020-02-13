@@ -1,3 +1,5 @@
+## Week 4 (2/11 & 2/13)
+
 ## Lighting
 
 + Blender
@@ -40,7 +42,9 @@
 
 + [Post Processing](https://github.com/Unity-Technologies/PostProcessing) plugin
 
-
 + Projects
   + [Julian Oliver - LevelHead](https://vimeo.com/1320756)
   + [Kaho Abe - Hit Me!](https://kahoabe.net/portfolio/hit-me/)
+
++ Individual Homework
+  + Create a "humanoid" 3d model, it doesn't have to be pretty. It just needs to walk! We will use this next week (or w6 depending on time) to rig and animate in Unity
