@@ -1,0 +1,66 @@
+/*
+	Twine CSS Template/Guide
+
+	based on the previous work by Daniel Tolsky:
+	https://github.com/danieltalsky/twine-css-template
+
+*/
+
+/* You can import Google Fonts: https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700');
+
+/* These are the default options for the entire browser window */
+body, tw-story {
+	background-color: #002b36;
+	/* font color */
+	color: #839496;
+	/* This is where you can use Google fonts you've imported, or regular system fonts */
+	font-family: 'PT Sans Caption', sans-serif;
+	/* This makes the font size for normal letters just a little bit bigger than default */
+	font-size: 1.1em;
+}
+
+/* These are the default options for the each passage area */
+tw-passage {
+	/*
+		This lets the story take up most of its width up to a maximum readable width
+		an `em` is about the width of one of your letters.  max-width lets the size
+		get wider and wider with the size of the window but only to a sane point
+
+		It's ok to experiment with making this smaller or larger
+	*/
+    max-width: 55em;
+	/* This centers the main story column in the window */
+    margin: 0 auto 0 auto;
+}
+
+/* The sidebar with scoring and the back button */
+tw-sidebar {
+	background: #073642;
+	color: #93a1a1;
+
+	/* Uncomment to hide the sidebar completely */
+	/* display: none; */
+}
+
+/*
+  BASIC LINK STYLES
+
+  This covers various different kinds of links in Harlowe
+*/
+.enchantment-link, tw-link, a {
+	color: #cb4b16;
+	font-weight: bold;
+}
+/* Links that have already been visited */
+.enchantment-link:visited, tw-link:visited, .enchantment-link.visited, tw-link.visited, a:visited {
+	color: #268bd2;
+	font-weight: bold;
+	text-shadow: 0 0 5px #268bd2;
+}
+/* Links when the mouse is over them */
+.enchantment-link:hover, tw-link:hover, a:hover {
+	color: #2aa198;
+	font-weight: bold;
+	text-shadow: 0 0 5px #2aa198;
+}
