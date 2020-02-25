@@ -28,13 +28,9 @@
 + Hide sidebar
   + ```tw-sidebar { visibility: hidden }```
 
-+ Possible Thursday demo(s)
-  + Generating a mesh from script
-  + Rigging a 3d Character w Mixamo
++ Blender -> Mixamo -> Unity & Basic Character Animation scripting
+  + [Follow along with instructions here](mixamo-to-unity.md)
 
 + Projects
   + [The Secret of Monkey Island](https://playclassic.games/games/point-n-click-adventure-dos-games-online/play-secret-monkey-island-online/)
   + [Nicky Case - Coming Out Simulator](https://ncase.itch.io/coming-out-simulator-2014)
-
-  + [Julian Oliver - LevelHead](https://vimeo.com/1320756)
-  + [Kaho Abe - Hit Me!](https://kahoabe.net/portfolio/hit-me/)

@@ -163,6 +163,7 @@ Group Project: Sensory S(t)imulation
 
 + Intro to Blender
 + Texturing
++ Arrays/Loops
 
 ## Week 4 (2/11 & 2/13)
 
@@ -177,6 +178,7 @@ Group Project: Sensory S(t)imulation
 
 ## Week 6 (2/25 & 2/27)
 
++ Generative Meshes
 + Project 2 Workshop
 
 ## Week 7 (3/3 & 3/5)
