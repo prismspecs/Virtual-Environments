@@ -1,6 +1,6 @@
 ## Week 6 (2/25 & 2/27)
 
-+ [Generating a Mesh via Script]()
++ [Generating a Mesh via Script](meshgen.md)
 
 ## Projects
 + [Julian Oliver - LevelHead](https://vimeo.com/1320756)
