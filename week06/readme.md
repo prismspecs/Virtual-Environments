@@ -1,6 +1,9 @@
 ## Week 6 (2/25 & 2/27)
 
-+ [Generating a Mesh via Script](meshgen.md)
++ Tuesday
+  + [Generating a Mesh via Script](meshgen.md)
++ Thursday
+  + 
 
 ## Projects
 + [Canabalt](http://adamatomic.com/canabalt/)

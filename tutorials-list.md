@@ -6,3 +6,8 @@
 ## Shaders
 + [Ameye - 2 minute shader graph tutorials](https://alexanderameye.github.io/)
 + [Unity - Shader Graph](https://unity.com/shader-graph)
+
+## Shaders -- Pre-made
++ [Shader Collection](https://github.com/michidk/Unity-Script-Collection#materials--shading)
++ [Shader Project](https://github.com/ellioman/ShaderProject)
++ [ShadersLab](http://shaderslab.com/shaders.html)
