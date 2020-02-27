@@ -5,6 +5,7 @@
 
 + Thursday
   + Better git practices for collaboration
+    + [Download Git Bash for Windows](https://git-scm.com/download/win)
     + Additive Scenes
       + [Use this git repo](https://github.com/prismspecs/ve-test)
       + [Unity .gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore)
