@@ -2,10 +2,11 @@
 
 + Tuesday
   + [Generating a Mesh via Script](meshgen.md)
-  
+
 + Thursday
   + Better git practices for collaboration
     + Additive Scenes
+      + [Use this git repo](https://github.com/prismspecs/ve-test)
     + [Further reading](https://maryspantheon.com/additive-scenes-bit-by-bit/)
 
 ## Projects
