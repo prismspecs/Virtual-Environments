@@ -3,7 +3,9 @@
 + Tuesday
   + [Generating a Mesh via Script](meshgen.md)
 + Thursday
-  + 
+  + Better git practices for collaboration
+    + Additive Scenes
+    + [Further reading](https://maryspantheon.com/additive-scenes-bit-by-bit/)
 
 ## Projects
 + [Canabalt](http://adamatomic.com/canabalt/)
