@@ -95,9 +95,7 @@ Extra credit may also be given on any assignment where you go beyond the minimum
 
 ## Final Grade Calculation
 
-Attendance & Class Participation 15%
-
-Writing 25%
+Attendance & Class Participation 35%
 
 Projects 65%
 

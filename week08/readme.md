@@ -1,6 +1,22 @@
 # Week 8 (3/10 & 3/12)
 
-+ Intro to VR
+## Tuesday & Wednesday: Twine Projects
+
++ Upcoming Assignments:
+  + No in-person assignments for the week after Spring Break (remote class via Zoom!)
+  + It is likely that classes will not meet in person for the remainder of the semester. We will hold classes remotely.
+  + VR Project (due Weds April 8)
+    + Group 1: Connor, Milena, Yuen
+    + Group 2: Chloe, Chang, My
+    + Group 3: Daniel, Iann, Ava
+    + Group 4: Alexander, Nicky, Ethan
+    + Each group should have a producer to keep everyone to tasks. Each group should also have a meeting facilitator (separate from the producer) to streamline meetings. Each group should also have a designated note-taker (again, separate from other roles) for meetings.
+    + We recommend Notion as an organizational tool. It has a task board, communication and planning functionality, and more.
+
+## Thursday: Intro to VR
+
++ [Hito Steyerl - Bubble Vision](https://www.youtube.com/watch?v=boMbdtu2rLE)
+  + A critical/historical view on Virtual Reality
 
 ## Getting Started
 

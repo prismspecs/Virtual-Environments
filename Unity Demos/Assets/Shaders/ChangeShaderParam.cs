@@ -33,6 +33,7 @@ public class ChangeShaderParam : MonoBehaviour
 
         Debug.Log(sineVal);
         // set the value within the shader
+        // common convention is to simply proceed it with an underscore
         rend.material.SetFloat("_Factor", sineVal);
 
     }
