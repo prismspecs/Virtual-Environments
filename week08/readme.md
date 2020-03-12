@@ -20,7 +20,7 @@
 
 ## Getting Started
 
-+ Install Unity 2019.3.3f1
++ Install Unity 2019.3.5f1
 + After creating the project be sure to drop the .gitignore file in your working director (in the root director of this repo)
 + [Download the Oculus Rift setup files](https://www.oculus.com/setup/)
 + [Read this guide for full instructions](https://circuitstream.com/blog/oculus-unity-setup/)
