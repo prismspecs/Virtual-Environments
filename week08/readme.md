@@ -30,12 +30,13 @@
 
 + Quick setup (installing and downloading will take a long time)
   + Attach the Oculus Rift and install all requisite software
-  + New Project using Unity 2019.3.3f1
+  + New Project using Unity 2019.3.5f1
   + Use Universal Project Template
   + File -> Build Settings -> Player Settings -> XR Settings -> Check Virtual Reality Supported
   + Install "Oculus Integration" from the Asset Store
   + It may prompt you to download and install newer versions of VR related software, confirm and allow it to restart Unity if so
   + Because we are using the new Universal Render Pipeline we need to update our materials: Edit -> Render Pipeline -> Universal Render Pipeline -> Upgrade Materials...
+  + Change the Stereo Rendering Mode from Multi Pass to Single Pass in the Player settings under XR Settings it will render to both eyes
   + Create a new scene
   + Delete the Main Camera
   + Drag Oculus -> VR -> Prefabs -> OVRCameraRig prefab into your scene
@@ -47,6 +48,7 @@
 
 Experiment 1:
 + Give both the Cube and the Input Test RIGHT objects RigidBodies, but make sure to disable Gravity and Enable Is Kinematic on the Input Test RIGHT object. You should be able to push the cube around.
++ [Sample Script located in VR Demos/Assets/Demo 1 .../OculusInput.cs](../VR Demos/Assets/Demo1 - Introduction to Oculus/OculusInput.cs)
 
 Experiment 2:
 + Disable the Input Test RIGHT object
