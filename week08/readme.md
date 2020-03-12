@@ -22,7 +22,7 @@
 
 ## Getting Started
 
-+ Install Unity 2019.3.3f1
++ Install Unity 2019.3.5f1
 + After creating the project be sure to drop the .gitignore file in your working director (in the root director of this repo)
 + [Download the Oculus Rift setup files](https://www.oculus.com/setup/)
 + [Read this guide for full instructions](https://circuitstream.com/blog/oculus-unity-setup/)
@@ -55,7 +55,9 @@ Experiment 2:
 + Add Sphere Colliders to both as well, with Is Trigger enabled and a radius of .05
 + Select LeftHandAnchor and drag the LeftHandAnchor from the hierarchy to the Grip Transform property of the OVR Grabber script
 + Increase the Grab Volumes to 1 and drag the LeftHandAnchor to Element 0
++ Drag LeftHandAnchor to the Parent Transform property as well
 + Select L Touch for Controller
 + Do the same for RightHandAnchor (using right hand properties instead)
-+ Add a RigidBody (experiment w enabling/disabling Gravity) and a OVR Grabbable script to the Cube object in your scene
++ Create a new Cube object
+ Add a RigidBody (experiment w enabling/disabling Gravity) and a OVR Grabbable script to the Cube you just added
 + You should be able to manipulate the object
