@@ -13,7 +13,9 @@
     + Each group should have a producer to keep everyone to tasks. Each group should also have a meeting facilitator (separate from the producer) to streamline meetings. Each group should also have a designated note-taker (again, separate from other roles) for meetings.
     + We recommend Notion as an organizational tool. It has a task board, communication and planning functionality, and more.
 
-## Thursday: Intro to VR
+## Thursday: Finish Twine Presentations & Intro to VR
+
++ [Zoom Link](https://newschool.zoom.us/j/522299093)
 
 + [Download the Zoom recording](https://NewSchool.zoom.us/rec/share/x-JsHpzZ-WlLTK_w6B77YKs9T6i5eaa82nJNr6ZZmkpUuKnw4OvueUsx7oW3Fbf2?startTime=1584029884000)
 
@@ -30,12 +32,13 @@
 
 + Quick setup (installing and downloading will take a long time)
   + Attach the Oculus Rift and install all requisite software
-  + New Project using Unity 2019.3.3f1
+  + New Project using Unity 2019.3.5f1
   + Use Universal Project Template
   + File -> Build Settings -> Player Settings -> XR Settings -> Check Virtual Reality Supported
   + Install "Oculus Integration" from the Asset Store
   + It may prompt you to download and install newer versions of VR related software, confirm and allow it to restart Unity if so
   + Because we are using the new Universal Render Pipeline we need to update our materials: Edit -> Render Pipeline -> Universal Render Pipeline -> Upgrade Materials...
+  + Change the Stereo Rendering Mode from Multi Pass to Single Pass in the Player settings under XR Settings it will render to both eyes
   + Create a new scene
   + Delete the Main Camera
   + Drag Oculus -> VR -> Prefabs -> OVRCameraRig prefab into your scene
@@ -47,6 +50,7 @@
 
 Experiment 1:
 + Give both the Cube and the Input Test RIGHT objects RigidBodies, but make sure to disable Gravity and Enable Is Kinematic on the Input Test RIGHT object. You should be able to push the cube around.
++ [Sample Script located in VR Demos/Assets/Demo 1 .../OculusInput.cs](https://github.com/prismspecs/Virtual-Environments/blob/master/VR%20Demos/Assets/Demo1%20-%20Introduction%20to%20Oculus/OculusInput.cs)
 
 Experiment 2:
 + Disable the Input Test RIGHT object
@@ -55,7 +59,9 @@ Experiment 2:
 + Add Sphere Colliders to both as well, with Is Trigger enabled and a radius of .05
 + Select LeftHandAnchor and drag the LeftHandAnchor from the hierarchy to the Grip Transform property of the OVR Grabber script
 + Increase the Grab Volumes to 1 and drag the LeftHandAnchor to Element 0
++ Drag LeftHandAnchor to the Parent Transform property as well
 + Select L Touch for Controller
 + Do the same for RightHandAnchor (using right hand properties instead)
-+ Add a RigidBody (experiment w enabling/disabling Gravity) and a OVR Grabbable script to the Cube object in your scene
++ Create a new Cube object
+ Add a RigidBody (experiment w enabling/disabling Gravity) and a OVR Grabbable script to the Cube you just added
 + You should be able to manipulate the object
