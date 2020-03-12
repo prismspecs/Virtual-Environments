@@ -48,7 +48,7 @@
 
 Experiment 1:
 + Give both the Cube and the Input Test RIGHT objects RigidBodies, but make sure to disable Gravity and Enable Is Kinematic on the Input Test RIGHT object. You should be able to push the cube around.
-+ [Sample Script located in VR Demos/Assets/Demo 1 .../OculusInput.cs](../VR Demos/Assets/Demo1 - Introduction to Oculus/OculusInput.cs)
++ [Sample Script located in VR Demos/Assets/Demo 1 .../OculusInput.cs](https://github.com/prismspecs/Virtual-Environments/blob/master/VR%20Demos/Assets/Demo1%20-%20Introduction%20to%20Oculus/OculusInput.cs)
 
 Experiment 2:
 + Disable the Input Test RIGHT object
