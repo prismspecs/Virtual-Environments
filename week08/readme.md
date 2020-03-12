@@ -13,7 +13,9 @@
     + Each group should have a producer to keep everyone to tasks. Each group should also have a meeting facilitator (separate from the producer) to streamline meetings. Each group should also have a designated note-taker (again, separate from other roles) for meetings.
     + We recommend Notion as an organizational tool. It has a task board, communication and planning functionality, and more.
 
-## Thursday: Intro to VR
+## Thursday: Finish Twine Presentations & Intro to VR
+
++ [Zoom Link](https://newschool.zoom.us/j/522299093)
 
 + [Hito Steyerl - Bubble Vision](https://www.youtube.com/watch?v=boMbdtu2rLE)
   + A critical/historical view on Virtual Reality
