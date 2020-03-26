@@ -11,3 +11,4 @@
 + [Shader Collection](https://github.com/michidk/Unity-Script-Collection#materials--shading)
 + [Shader Project](https://github.com/ellioman/ShaderProject)
 + [ShadersLab](http://shaderslab.com/shaders.html)
++ [Unity Shader Graph examples](https://github.com/UnityTechnologies/ShaderGraph_ExampleLibrary)

@@ -38,10 +38,20 @@ A
 
 + So create a cube and drop the material onto it!
 
+## Caveats
 
+### Bad Shadows
+
+If you have pixelated shadows, try adjusting your Universal Render Pipeline Asset settings as follows
+
+![shadow-problem.png](shadow-problem.png)
+![shadow-problem-fixed.png](shadow-problem-fixed.png)
+[Official documentation for Shadow Cascades](https://docs.unity3d.com/Manual/shadow-cascades.html)
 
 
 ## Acknowledgements
 
 Some helpful resources I used in researching this:
 + https://www.raywenderlich.com/3744978-shader-graph-in-unity-for-beginners
+
++ [Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=UxmIC92BqfA)
