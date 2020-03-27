@@ -2,9 +2,7 @@
 
 ## Social Distancing Simulator
 
-Based on https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
-
-[Source code here](https://github.com/prismspecs/Virtual-Environments/tree/master/Unity%20Demos/Assets/Social%20Distancing%20Simulator)
+[Link to Social Distancing Simulator readme](https://github.com/prismspecs/Virtual-Environments/tree/master/Unity%20Demos/Assets/Social%20Distancing%20Simulator/readme.md)
 
 ## Shaders *unfinished right now!*
 
