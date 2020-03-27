@@ -1,6 +1,12 @@
 # Week 10 (3/24 & 3/26)
 
-## Shaders
+## Social Distancing Simulator
+
+Based on https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+
+[Source code here](https://github.com/prismspecs/Virtual-Environments/tree/master/Unity%20Demos/Assets/Social%20Distancing%20Simulator)
+
+## Shaders *unfinished right now!*
 
 **Important Note:** Make sure that when you create a new project you select Universal RP as the project type. This enables the new Universal Render Pipeline which includes ShaderGraph shaders, the node-based scripting language within Unity for creating Shaders. Universal RP or URP is a "light weight" rendering pipeline that has lots of bells and whistles. Its counterpart, HDRP or High Definition Render Pipeline, is for high-end graphics with requisite hardware. URP will come to be the standard project type in the future.
 
