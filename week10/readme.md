@@ -2,7 +2,7 @@
 
 ## Social Distancing Simulator
 
-[Link to Social Distancing Simulator readme](https://github.com/prismspecs/Virtual-Environments/tree/master/Unity%20Demos/Assets/Social%20Distancing%20Simulator/readme.md)
+[Link to Social Distancing Simulator lesson](https://github.com/prismspecs/Virtual-Environments/tree/master/Unity%20Demos/Assets/Social%20Distancing%20Simulator/readme.md)
 
 ## Shaders *unfinished right now!*
 
