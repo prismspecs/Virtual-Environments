@@ -25,3 +25,10 @@ Shaders Workshop
 
 2:00 - 2:40
 Show Shaders and Q&A
+
+### Helpful Links and Resources
+
++ [What are Shaders? short vid](https://www.youtube.com/watch?v=sXbdF4KjNOc)
++ [Custom Lighting official Unity tutorial to create a toon shader](https://blogs.unity3d.com/2019/07/31/custom-lighting-in-shader-graph-expanding-your-graphs-in-2019/)
++ [Recreating a Zelda-inspired toon shading in Shader Graph](https://connect.unity.com/p/zelda-inspired-toon-shading-in-shadergraph)
++ [Another vertex displacement tutorial](https://www.youtube.com/watch?v=vh85pzT959M)
