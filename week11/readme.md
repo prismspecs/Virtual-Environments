@@ -6,7 +6,7 @@
 
 ## Shaders
 
-[Link to Shaders lesson](https://github.com/prismspecs/Virtual-Environments/Universal RP Demos/Assets/Shaders)
+[Link to Shaders lesson](https://github.com/prismspecs/Virtual-Environments/tree/master/Universal%20RP%20Demos/Assets/Shaders)
 
 ## Tuesday
 
