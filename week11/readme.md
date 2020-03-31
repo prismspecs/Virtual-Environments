@@ -10,6 +10,8 @@
 
 ## Tuesday
 
+[Zoom recording available here](https://NewSchool.zoom.us/rec/share/_pdKC-ji7GVLYLPWxmyGUIIjOqDmaaa81CJI_qUIzR076FSMsH1eBunRBHbhzurb?startTime=1585670891000)
+
 https://NewSchool.zoom.us/j/133945105
 
 [Slides: Shaders and Blend Modes](https://docs.google.com/presentation/d/1uLLgGlK1kBMr9wi_dOA6wte-UtkRzEgKdUSdzd6jQso/edit?usp=sharing)
