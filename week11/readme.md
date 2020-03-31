@@ -12,6 +12,8 @@
 
 https://NewSchool.zoom.us/j/133945105
 
+[Slides: Shaders and Blend Modes](https://docs.google.com/presentation/d/1uLLgGlK1kBMr9wi_dOA6wte-UtkRzEgKdUSdzd6jQso/edit?usp=sharing)
+
 12:10 - 12:45
 Discuss Social Distancing Simulator, show work
 
