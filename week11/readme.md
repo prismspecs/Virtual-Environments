@@ -6,11 +6,15 @@
 
 ## Shaders
 
-[Link to Shaders lesson](https://github.com/prismspecs/Virtual-Environments/Universal RP Demos/Assets/Shaders)
+[Link to Shaders lesson](https://github.com/prismspecs/Virtual-Environments/tree/master/Universal%20RP%20Demos/Assets/Shaders)
 
 ## Tuesday
 
+[Zoom recording available here](https://NewSchool.zoom.us/rec/share/_pdKC-ji7GVLYLPWxmyGUIIjOqDmaaa81CJI_qUIzR076FSMsH1eBunRBHbhzurb?startTime=1585670891000)
+
 https://NewSchool.zoom.us/j/133945105
+
+[Slides: Shaders and Blend Modes](https://docs.google.com/presentation/d/1uLLgGlK1kBMr9wi_dOA6wte-UtkRzEgKdUSdzd6jQso/edit?usp=sharing)
 
 12:10 - 12:45
 Discuss Social Distancing Simulator, show work
@@ -23,3 +27,10 @@ Shaders Workshop
 
 2:00 - 2:40
 Show Shaders and Q&A
+
+### Helpful Links and Resources
+
++ [What are Shaders? short vid](https://www.youtube.com/watch?v=sXbdF4KjNOc)
++ [Custom Lighting official Unity tutorial to create a toon shader](https://blogs.unity3d.com/2019/07/31/custom-lighting-in-shader-graph-expanding-your-graphs-in-2019/)
++ [Recreating a Zelda-inspired toon shading in Shader Graph](https://connect.unity.com/p/zelda-inspired-toon-shading-in-shadergraph)
++ [Another vertex displacement tutorial](https://www.youtube.com/watch?v=vh85pzT959M)
