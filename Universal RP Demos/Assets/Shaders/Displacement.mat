@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   version: 1
 --- !u!21 &2100000
 Material:
@@ -21,14 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Displacement
-<<<<<<< HEAD
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF
-=======
-  m_Shader: {fileID: -6465566751694194690, guid: 8b94e9ed1bdeff643a0be2bf41e602da,
-    type: 3}
-  m_ShaderKeywords: 
->>>>>>> ada6fe3ae27c1d94cfb138d6ff55e523280b2910
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
