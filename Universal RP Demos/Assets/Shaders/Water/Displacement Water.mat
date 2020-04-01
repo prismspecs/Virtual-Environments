@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3572452459072964305
+--- !u!114 &-2830069729111548368
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,12 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Test
-  m_Shader: {fileID: -6465566751694194690, guid: adf4a6be78b743446b22b65000449242,
+  m_Name: Displacement Water
+  m_Shader: {fileID: -6465566751694194690, guid: 6443193b76158fc40bcc0fec8b2dffb5,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -61,11 +61,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_145ACA02_Out_0:
-        m_Texture: {fileID: 2800000, guid: bd22a15a4cbd649caa948484771a6738, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_19074B5F: 0.04
+    - Vector1_565EE7D8: 0.03
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
