@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class BasicMovement : MonoBehaviour
 {
-    public float speed = 6.0f;    public float jumpSpeed = 8.0f;    public float rotateSpeed = 90f;    public Rigidbody rb;
+    public float speed = 6.0f;
+    public float jumpSpeed = 8.0f;
+    public float rotateSpeed = 90f;
+
+    public Rigidbody rb;
 
     // am i on the ground?
     private bool isGrounded = false;
 
-    void Start()    {
-        rb = GetComponent<Rigidbody>();    }    void Update()    {
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void Update()
+    {
 
         transform.Rotate(0f, Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime, 0f);
         transform.position += transform.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime;
