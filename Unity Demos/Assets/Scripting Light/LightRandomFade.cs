@@ -72,15 +72,5 @@ public class LightRandomFade : MonoBehaviour
             // for more info: https://docs.unity3d.com/Manual/Coroutines.html
             yield return null;
         }
-        /*
-        if (Time.time >= LastLightFlicker + FlickerIntervalPadding)
-        {
-            // randomize the next flicker duration
-            FlickerIntervalPadding = FlickerInterval + Random.Range(0, FlickerRandomness);
-
-            // reset the timer
-            LastLightFlicker = Time.time;
-        }
-        */
     }
 }
