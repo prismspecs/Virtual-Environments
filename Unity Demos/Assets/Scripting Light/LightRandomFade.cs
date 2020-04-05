@@ -7,11 +7,6 @@ public class LightRandomFade : MonoBehaviour
 
     public Light myLight;
 
-    public float FlickerInterval = 0.5f;
-    private float FlickerIntervalPadding = 0.0f;    // used for randomness
-    public float FlickerRandomness = .1f;
-    private float LastLightFlicker = 0.0f;
-
     // it will oscillate between two colors,
     // one could just be black (no light)
     public Color Color1 = Color.black;
