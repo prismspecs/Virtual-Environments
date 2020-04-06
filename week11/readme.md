@@ -32,7 +32,7 @@ Show Shaders and Q&A
 
 [Normal Mapping Explained - watch this first!](https://www.youtube.com/watch?v=SQrHkKnSBcA)
 
-[Zoom recording available here](https://newschool.zoom.us/recording/detail?meeting_id=KBNCOdkJSceKj38uReVdWQ%3D%3D)
+[Zoom recording available here](https://NewSchool.zoom.us/rec/share/xuZTBJb89UFJSYHu6hqPR5QsIIjaT6a8hCUZrvIPzx6qqNVP5jAL-AUotWSQ7I5Y?startTime=1585844130000)
 
 12:10 - 1:30
 More shader demos/workshop
