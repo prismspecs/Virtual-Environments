@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightRandomFade : MonoBehaviour
 {
-
+    // drop a light object on this in the editor
     public Light myLight;
 
     // it will oscillate between two colors,
@@ -27,7 +27,7 @@ public class LightRandomFade : MonoBehaviour
     {
 
         while(true){ 
-
+            /*
             // use the Mathf.Sin method to create a wave
             // so we get smooth values oscillating from -1 to 1
             float t = Mathf.Sin(Time.time * Frequency);
@@ -54,8 +54,8 @@ public class LightRandomFade : MonoBehaviour
 
             // turn the light the color of the interpolated color
             myLight.color = LerpedColor;
-
-            /*
+            */
+            
             // MORE VARIATION METHOD: add a second wave for more variation
             float t1 = Mathf.Sin(Time.time * Frequency);
             float t2 = Mathf.Cos(Time.time * Frequency * 1.3f); // some arbitrary multiplier
@@ -65,7 +65,7 @@ public class LightRandomFade : MonoBehaviour
             float combinedWaves = (t1 + t2) / 2;
             Color LerpedColor = Color.Lerp(Color1, Color2, combinedWaves);
             myLight.color = LerpedColor;
-            */
+            
 
             // i just want this loop to run as quickly as possible, so
             // i use yield return null, but we could use a WaitForSeconds
