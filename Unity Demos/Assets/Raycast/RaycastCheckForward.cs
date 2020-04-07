@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class RaycastCheckForward : MonoBehaviour
 {
+
+    public float ViewDistance = 3f;
+
     void Update()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward) * 3;
+        // create a vector that shoots out from the center of this object
+        // we can create ViewDistance as a public float so we can change it
+        // from the editor
+        Vector3 forward = transform.TransformDirection(Vector3.forward) * ViewDistance;
         Debug.DrawRay(transform.position, forward, Color.green);
 
-        if (Physics.Raycast(transform.position, forward, 10))
-        {
-            //print("There is something in front of the object!");
-        }
-
+        // need to store data about the raycast hit
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, -Vector3.up, out hit, 100.0f))
+        // looking in front of this game object, what do we see?
+        if (Physics.Raycast(transform.position, forward, out hit, ViewDistance))
         {
-            //print("Found an object - distance: " + hit.distance);
-            //Debug.Log(hit.collider.name);
+            
+            if(hit.transform.name.Contains("Player"))
+            {
+                Debug.Log("I see the player~!");
+            }
         }
     }
 }

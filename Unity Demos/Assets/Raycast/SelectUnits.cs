@@ -113,6 +113,7 @@ public class SelectUnits : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100, MyLayerMask))
             {
+                // find every Unit type in scene
                 Unit[] units = FindObjectsOfType(typeof(Unit)) as Unit[];
                 foreach (Unit u in units)
                 {
