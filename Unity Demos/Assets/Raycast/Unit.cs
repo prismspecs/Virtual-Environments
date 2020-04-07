@@ -28,7 +28,6 @@ public class Unit : MonoBehaviour
 
         // set Destination to where it already stands
         Destination = transform.position;
-
     }
 
     // Update is called once per frame

@@ -10,6 +10,7 @@ public class SelectUnits : MonoBehaviour
     // create a reference to the camera
     Camera cam;
 
+    // mouse selection stuff
     private Vector3 StartPos;   // where mouse selection begins
     private Vector3 EndPos;     // and ends
 
@@ -50,7 +51,7 @@ public class SelectUnits : MonoBehaviour
             // if it hits something...
             if (Physics.Raycast(ray, out hit, 100, MyLayerMask))
             {
-                Debug.Log(hit.transform.gameObject.layer);
+                //Debug.Log(hit.transform.gameObject.layer);
                 StartPos = hit.point;
                 MouseBox = Instantiate(SelectionBox, StartPos, Quaternion.identity);
                 MouseBox.transform.localScale = new Vector3(0, 0, 0);   // start it as size 0
@@ -72,7 +73,7 @@ public class SelectUnits : MonoBehaviour
                 Vector3 MouseBoxScale = CurrentPos - StartPos;
 
                 // we should offset it on the Y axis a bit so that it has some height
-                MouseBoxScale += new Vector3(0, 1, 0);
+                MouseBoxScale += new Vector3(0, 2, 0);
 
                 MouseBox.transform.localScale = MouseBoxScale;
                 // since boxes are positioned from their centers, we need
@@ -80,7 +81,7 @@ public class SelectUnits : MonoBehaviour
                 MouseBox.transform.position = CurrentPos - MouseBoxScale/2;
 
                 // we also need to move the mouse selection box position upwards
-                MouseBox.transform.position += new Vector3(0, 1, 0);
+                MouseBox.transform.position += new Vector3(0, 2, 0);
                 
             }
 
@@ -88,12 +89,12 @@ public class SelectUnits : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("left mouse button went up");
+            //Debug.Log("left mouse button went up");
 
             // now look for any units inside the MouseSelectionBox
             List<Collider> InsideUnits = MouseBox.GetComponent<SelectionBox>().GetColliders();
 
-            //
+            // iterate thru every collider in the array
             foreach(Collider c in InsideUnits)
             {
                 // for now lets just focus on the Unit class
