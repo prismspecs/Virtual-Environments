@@ -32,6 +32,7 @@ public class ObjectSound : MonoBehaviour
         // collision contact point in the array, which is easy
         ContactPoint contact = collision.contacts[0];
 
+        
         // or if there are multiple collision points, you may want to
         // find the average position
         Debug.Log(collision.contacts.Length);
@@ -45,16 +46,17 @@ public class ObjectSound : MonoBehaviour
         }
         // then simply divide by the number of collisions to get the average
         average = average / collision.contacts.Length;
+        
 
         // create the text object at the position of the collision
-        TextMesh go = Instantiate(MyTextPrefab, average, Quaternion.identity);
+        TextMesh tm = Instantiate(MyTextPrefab, average, Quaternion.identity);
 
         // change its text property
-        go.text = MyText;
+        tm.text = MyText;
 
         // play the sound
         MyAudioSource.PlayOneShot(MySound);
-        Destroy(go.gameObject, .5f);   // maybe it should go away quickly?
+        Destroy(tm.gameObject, .5f);   // maybe it should go away quickly?
 
         // perhaps we should also destroy this game object, as if it were a drop of water
         Destroy(this.gameObject, .5f);
