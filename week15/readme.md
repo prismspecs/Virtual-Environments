@@ -11,4 +11,4 @@ In this example, a sheep body grows and shrinks, but its body parts remain the s
 
 Useful trick: If you want to move an object so that it is in the same position as another object, but do not want them in the same hierarchy, you can drag the object you want moved onto the other, reset its Transform, then drag it off the hierarchy.
 
-UI making it look better
+[Best Practices for Rigidbodies in Unity](https://digitalopus.ca/site/using-rigid-bodies-in-unity-everything-that-is-not-in-the-manual/)
