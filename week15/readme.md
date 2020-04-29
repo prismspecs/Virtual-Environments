@@ -2,6 +2,9 @@
 
 ## Tuesday
 
+[Zoom Recording here](https://NewSchool.zoom.us/rec/share/z50kH7Xu3WVJGrPuynDEA4w6EKrjeaa8g3AY-qFYmkwzzGY8ZVX3jSiDF7D8fNRN)
+  + Password: 2l$8zG%3 
+
 Using layered abstraction on GameObjects (or perhaps, Indirection Layers)
 + [Using Layers of Indirection to conceptualize/implement complex transformations](https://answers.unity.com/questions/44641/how-to-scale-a-parent-without-scaling-children.html)
 
