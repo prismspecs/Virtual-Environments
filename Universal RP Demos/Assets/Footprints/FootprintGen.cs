@@ -5,12 +5,11 @@ using UnityEngine;
 public class FootprintGen : MonoBehaviour
 {
 
-    public GameObject LeftFootprint;
-    public GameObject RightFootprint;
-
     public Transform LeftFoot;
     public Transform RightFoot;
 
+    public GameObject LeftFootprint;
+    public GameObject RightFootprint;
 
     // Update is called once per frame
     void Update()
@@ -23,6 +22,8 @@ public class FootprintGen : MonoBehaviour
 
     public void FootDown(int whichFoot)
     {
+        // for whichFoot, 0 is left foot and 1 is right foot
+
         // derive a position that is where the foot is but at Y = 0
         Vector3 LeftFootAdjusted = new Vector3(LeftFoot.position.x, 0.01f, LeftFoot.position.z);
         Vector3 RightFootAdjusted = new Vector3(RightFoot.position.x, 0.01f, RightFoot.position.z);

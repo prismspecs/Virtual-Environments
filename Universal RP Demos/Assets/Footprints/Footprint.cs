@@ -29,7 +29,7 @@ public class Footprint : MonoBehaviour
     void Update()
     {
         // decrease "life" over time, 50% per second
-        Life -= .5f * Time.deltaTime;
+        Life -= .25f * Time.deltaTime;
 
         // use that as the alpha value for the shader
         MyMat.SetFloat("_Alpha", Life);

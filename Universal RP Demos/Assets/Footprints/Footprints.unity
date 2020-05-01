@@ -233,12 +233,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58041cf9ea09d3046b887c9a6e2ca220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeftFoot: {fileID: 1806188116}
+  RightFoot: {fileID: 303415591}
   LeftFootprint: {fileID: 6790952527632346813, guid: 1dd72e956c1ec8848a735e13191ec923,
     type: 3}
   RightFootprint: {fileID: 4191815859732269213, guid: c5d77f48abdf8874c9d5b092bf5ac77a,
     type: 3}
-  LeftFoot: {fileID: 1806188116}
-  RightFoot: {fileID: 303415591}
 --- !u!1 &1679119157
 GameObject:
   m_ObjectHideFlags: 0
