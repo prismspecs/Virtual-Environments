@@ -1,7 +1,4 @@
-﻿// further reading on arrays and lists
-// https://hub.packtpub.com/arrays-lists-dictionaries-unity-3d-game-development/
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
