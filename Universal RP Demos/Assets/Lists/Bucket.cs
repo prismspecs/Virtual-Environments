@@ -20,18 +20,29 @@ public class Bucket : MonoBehaviour
         return Stuff.Count;
     }
 
+    // add option to drop things
+    public void DropThing()
+    {
+        // remove the 0th item from the bucket
+        Stuff[0].SetActive(true);
+        Stuff.RemoveAt(0);
+    }
+
     private void OnMouseOver()
     {
         // if player right clicks on the bucket
         if (Input.GetMouseButtonDown(1))
         {
+            /*
             // .. but this is no good!
             foreach (GameObject go in Stuff)
             {
                 go.SetActive(true);
                 Stuff.Remove(go);
             }
+            */
 
+            // iterate thru the List backwards...
             for (int i = Stuff.Count - 1; i >= 0; i--)
             {
                 Stuff[i].SetActive(true);

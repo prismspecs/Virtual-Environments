@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Radio : MonoBehaviour
 {
-
     // you can create the array and assign it a number of elements
     // all in one go like this
     private AudioSource[] MyAudioSource = new AudioSource[2];
 
     // you could also do:
-    // private AudioSource[] MyAudioSource;
+    // public AudioSource[] MyAudioSource;
     // and then give it a number of elements in the Start function (commented out below)
 
     // we need to keep track of which AudioSource is currently playing
@@ -38,8 +37,8 @@ public class Radio : MonoBehaviour
         // start MyAudioSource[0] at 0 and [1] at 1, because we will
         // fade in [0] first, and the logic below requires it to be
         // less than 1 when we begin
-        MyAudioSource[0].volume = 0f;
-        MyAudioSource[1].volume = 1f;
+        MyAudioSource[0].volume = 1f;
+        MyAudioSource[1].volume = 0f;
 
         // we're using two AudioSource components bc we are assuming we only need
         // two maximum: we will always fade from one sound to another, no need for
@@ -62,17 +61,16 @@ public class Radio : MonoBehaviour
             // the other AudioSource should always be the opposite of the current one
             MyAudioSource[PreviousAudioSource].volume = 1 - MyAudioSource[CurrentAudioSource].volume;
 
-            Debug.Log(MyAudioSource[PreviousAudioSource].volume);
+            //Debug.Log(MyAudioSource[PreviousAudioSource].volume);
 
             // optional: use sliders to show mix
-            MySlider[0].value = MyAudioSource[0].volume;
-            MySlider[1].value = MyAudioSource[1].volume;
+            //MySlider[0].value = MyAudioSource[0].volume;
+            //MySlider[1].value = MyAudioSource[1].volume;
         }
     }
 
     public void ChangeMusic(AudioClip NewClip)
     {
-
         // keep track of which AudioSource was playing
         // so that we can fade it out
         PreviousAudioSource = CurrentAudioSource;
@@ -88,6 +86,7 @@ public class Radio : MonoBehaviour
         }
 
         MyAudioSource[CurrentAudioSource].clip = NewClip;
+        MyAudioSource[CurrentAudioSource].loop = true;
         MyAudioSource[CurrentAudioSource].Play();
 
     }

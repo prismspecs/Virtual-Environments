@@ -18,10 +18,18 @@ public class ActivateClip : MonoBehaviour
         // or if you want to have several AudioSources, etc
         MyRadio = FindObjectOfType<Radio>();
         Debug.Log("Found Radio: " + MyRadio.name);
+
+        //MyRadio.ChangeMusic(MyClip);
+
+        // read in player high score
+        Debug.Log("High Score: " + PlayerPrefs.GetInt("highscore"));
     }
 
     private void OnMouseDown()
     {
         MyRadio.ChangeMusic(MyClip);
+
+        // save player high score
+        PlayerPrefs.SetInt("highscore", 100);
     }
 }

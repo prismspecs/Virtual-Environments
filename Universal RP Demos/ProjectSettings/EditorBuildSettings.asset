@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cardboard Demo/Cardboard Demo.unity
     guid: 957d98964988c95428088a24f557e287
+  - enabled: 1
+    path: Assets/Sound/FadeInOnStart/Scene1.unity
+    guid: a61002f9b1b080d4fb02be35ac6e94cf
+  - enabled: 1
+    path: Assets/Sound/FadeInOnStart/Scene2.unity
+    guid: 783bb5f9113227c479af547e4610c39b
+  - enabled: 1
+    path: Assets/Raycast/RaycastSurveillance.unity
+    guid: c7771bfdd80b16243803bbc201d4e257
+  - enabled: 1
+    path: Assets/AdditiveScenes/Additive-Environment.unity
+    guid: 3b0ca5554422e3248b695d0c6e447435
+  - enabled: 1
+    path: Assets/AdditiveScenes/Additive-Player.unity
+    guid: a83d8f937515eaf40a2fbf3d03cf6914
+  - enabled: 1
+    path: Assets/AdditiveScenes/Additive-SoundObjects.unity
+    guid: ff1e8311c6475e443a127800aeada01a
   m_configObjects: {}
