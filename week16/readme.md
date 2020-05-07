@@ -10,6 +10,9 @@
 
 ## Thursday
 
+General (hubs for tons of useful info!)
++ [IGDA](http://igda.nyc)
+
 Residencies etc
 + [MICA Game Designer in Residence](http://gamelab.mica.edu/?page_id=827)
 + [Residency for International Creators with Exploratory Projects 2020 - Japan](https://creatorikusei.jp/en/application-guide-for-overseas-creators_2020/)
@@ -32,6 +35,8 @@ Edu
 Game Jams
 + [Unity Global](https://unity.com/ggj)
 + [IndieGameJams](http://www.indiegamejams.com/)
++ [Itch.io Jams](https://itch.io/jams)
++ [LDJam](https://ldjam.com/)
 
 Keep your finger on the pulse
 + [Video Game Art Gallery in Chicago/VGA Journal](https://www.videogameartgallery.com/)

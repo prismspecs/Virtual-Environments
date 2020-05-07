@@ -15,10 +15,6 @@
 
 ## Thursday: Finish Twine Presentations & Intro to VR
 
-+ [Zoom Link](https://newschool.zoom.us/j/522299093)
-
-+ [Download the Zoom recording](https://NewSchool.zoom.us/rec/share/x-JsHpzZ-WlLTK_w6B77YKs9T6i5eaa82nJNr6ZZmkpUuKnw4OvueUsx7oW3Fbf2?startTime=1584029884000)
-
 + [Hito Steyerl - Bubble Vision](https://www.youtube.com/watch?v=boMbdtu2rLE)
   + A critical/historical view on Virtual Reality
 

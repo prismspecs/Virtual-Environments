@@ -10,7 +10,6 @@
 
 ## Thursday
 
-[Link to Zoom recording]( https://NewSchool.zoom.us/rec/share/7_dKL6r560lJfIXI1XPzC4Q6Gq75aaa8gHAb-qUEyh3uoHDKJlPV6fTLGo5Rkc8q) Password: 9e#I3x?z 
 + Sound Visualization
   + http://www.41post.com/4776/programming/unity-making-a-simple-audio-visualization
   + https://www.youtube.com/watch?v=PzVbaaxgPco

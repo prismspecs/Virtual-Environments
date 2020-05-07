@@ -10,10 +10,6 @@
 
 ## Tuesday
 
-[Zoom recording available here](https://NewSchool.zoom.us/rec/share/_pdKC-ji7GVLYLPWxmyGUIIjOqDmaaa81CJI_qUIzR076FSMsH1eBunRBHbhzurb?startTime=1585670891000)
-
-https://NewSchool.zoom.us/j/133945105
-
 [Slides: Shaders and Blend Modes](https://docs.google.com/presentation/d/1uLLgGlK1kBMr9wi_dOA6wte-UtkRzEgKdUSdzd6jQso/edit?usp=sharing)
 
 12:10 - 12:45
@@ -31,8 +27,6 @@ Show Shaders and Q&A
 ## Thursday
 
 [Normal Mapping Explained - watch this first!](https://www.youtube.com/watch?v=SQrHkKnSBcA)
-
-[Zoom recording available here](https://NewSchool.zoom.us/rec/share/xuZTBJb89UFJSYHu6hqPR5QsIIjaT6a8hCUZrvIPzx6qqNVP5jAL-AUotWSQ7I5Y?startTime=1585844130000)
 
 12:10 - 1:30
 More shader demos/workshop
