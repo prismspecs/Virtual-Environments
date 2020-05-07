@@ -23,6 +23,9 @@ Lists of upcoming residencies
 Edu
 + [NYU Game Center](https://gamecenter.nyu.edu/academics/game-design-mfa/)
 + [Hexagram: Technoculture Arts and Games at Concordia University](https://tag.hexagram.ca/)
++ [Pioneer Works classes](https://pioneerworks.org/classes/)
++ [SFPC](https://sfpc.io/)
++ [ITP Summer Camp](https://itp.nyu.edu/camp2020/dates)
 
 Game Jams
 + [Unity Global](https://unity.com/ggj)
