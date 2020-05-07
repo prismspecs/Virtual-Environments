@@ -19,6 +19,8 @@ Residencies etc
 Lists of upcoming residencies
 + [Transartists](https://www.transartists.org/calls)
 + [NYFA opportunities](https://www.nyfa.org/Opportunities)
++ [Rivet](https://rivet.es/calls/)
++ [Mapping Residencies](https://www.facebook.com/mappingresidencies/)
 
 Edu
 + [NYU Game Center](https://gamecenter.nyu.edu/academics/game-design-mfa/)
